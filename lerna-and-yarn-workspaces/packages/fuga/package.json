@@ -25,5 +25,8 @@
   },
   "bugs": {
     "url": "https://github.com/n04h/monorepo-experiment/issues"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
   }
 }
