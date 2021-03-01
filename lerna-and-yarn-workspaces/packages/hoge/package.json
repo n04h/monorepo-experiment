@@ -1,6 +1,6 @@
 {
   "name": "@lerna-and-yarn-workspaces/hoge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "N04h <contact@n04h.jp>",
   "homepage": "https://github.com/n04h/monorepo-experiment#readme",
@@ -26,6 +26,5 @@
   },
   "bugs": {
     "url": "https://github.com/n04h/monorepo-experiment/issues"
-  },
-  "dependencies": {}
+  }
 }
