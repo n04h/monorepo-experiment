@@ -32,6 +32,7 @@ yarn add -W --dev typescript prettier eslint
 ### パブリッシュ
 
 オプションでバージョンアップの指定ができる
+新しいパッケージの場合は`from-package`を追記する
 
 ```sh
 yarn lerna publish <patch | minor | major>

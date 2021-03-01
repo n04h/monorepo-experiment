@@ -1,5 +1,5 @@
 {
-  "name": "@lerna-and-yarn-workspaces/fuga",
+  "name": "@n04h/lerna-and-yarn-workspaces-fuga",
   "version": "1.0.1",
   "description": "> TODO: description",
   "author": "N04h <contact@n04h.jp>",
@@ -27,5 +27,5 @@
   "bugs": {
     "url": "https://github.com/n04h/monorepo-experiment/issues"
   },
-  "gitHead": "de74c720281b993d097d25164581b9447a42bab8"
+  "gitHead": "dec85dcf7a420deae02bb118c710b843d0d9cba6"
 }
