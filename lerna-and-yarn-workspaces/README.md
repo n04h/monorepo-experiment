@@ -31,6 +31,8 @@ yarn add -W --dev typescript prettier eslint
 
 ### パブリッシュ
 
+オプションでバージョンアップの指定ができる
+
 ```sh
-yarn add -W --dev typescript prettier eslint
+yarn lerna publish <patch | minor | major>
 ```
