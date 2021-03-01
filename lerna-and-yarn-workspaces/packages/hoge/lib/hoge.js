@@ -1,5 +1,7 @@
 const axios = require('axios').default;
 
+console.log("feature");
+
 axios.get('https://jsonplaceholder.typicode.com/todos/1')
   .then(function (response) {
     // handle success

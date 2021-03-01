@@ -3,5 +3,5 @@
 module.exports = fuga;
 
 function fuga() {
-    // TODO
+    console.log("feature");
 }
