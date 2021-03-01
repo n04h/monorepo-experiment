@@ -18,7 +18,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/n04h/monorepo-experiment.git"
+    "url": "git+https://github.com/n04h/monorepo-experiment.git",
+    "directory": "lerna-and-yarn-workspaces/packages/fuga"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"

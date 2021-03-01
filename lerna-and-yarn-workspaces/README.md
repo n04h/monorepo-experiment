@@ -15,11 +15,21 @@ yarn lerna create @<root-package-name>/<package-name>
 ```sh
 cd packages/<package-name>
 yarn add form-data
-// or
+```
+
+または
+
+```sh
 yarn workspace @<root-package-name>/<package-name> add form-data
 ```
 
 ### 共通ライブラリのインストール
+
+```sh
+yarn add -W --dev typescript prettier eslint
+```
+
+### パブリッシュ
 
 ```sh
 yarn add -W --dev typescript prettier eslint
