@@ -1,4 +1,12 @@
-# LernaとYarn WorkspacesでのMonorepo
+# lernaとyarn workspacesでのmonorepo
+
+lernaだけでは各パッケージへの外部パッケージの追加がyarn経由の直感的な方法で行えないため、
+yarn workspacesと合わせて使ったmonorepoのサンプル。
+
+## 使用バージョン
+
+yarn: 1.22.10
+lerna: 3.22.1
 
 ## チートシート
 
@@ -35,5 +43,5 @@ yarn add -W --dev typescript prettier eslint
 新しいパッケージの場合は`from-package`を追記する
 
 ```sh
-yarn lerna publish <patch | minor | major>
+yarn lerna publish
 ```
