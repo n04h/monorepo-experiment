@@ -6,5 +6,8 @@
     "type": "git",
     "url": "https://github.com/n04h/monorepo-experiment.git",
     "directory": "yarn-workspaces/packages/fuga"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
