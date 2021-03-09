@@ -1,3 +1,7 @@
 {
-  "name": "@n04h/yarn-workspaces"
+  "name": "@n04h/yarn-workspaces",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }
