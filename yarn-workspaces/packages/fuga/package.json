@@ -2,6 +2,9 @@
   "name": "@n04h/yarn-workspaces-fuga",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/n04h/monorepo-experiment.git",
