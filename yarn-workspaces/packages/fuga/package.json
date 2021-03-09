@@ -1,7 +1,7 @@
 {
   "name": "@n04h/yarn-workspaces-fuga",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/src/index.js",
   "scripts": {
     "build": "tsc"
   },

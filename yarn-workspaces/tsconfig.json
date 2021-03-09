@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    /* 基本設定 */
+    "target": "es2019",                       /* コンパイルするECMAScriptバージョンの指定 */
+    "module": "commonjs",                     /* コンパイルするモジュールパターンの指定(Node.js利用なら`commonjs`) */
+    "outDir": "./dist",                       /* コンパイルしたjsファイルのディレクトリ指定 */
+    "declaration": true,                      /* コンパイルしたtsファイルの中でexportしているもの全ての型定義ファイル生成有無 */
+    "declarationMap": true,                   /* 型定義mapファイルの生成有無(エディタで型定義にではなくコード定義元にジャンプできるようになる) */
+    "sourceMap": true,                        /* 型定義mapファイルの生成有無(エディタで型定義にではなくコード定義元にジャンプできるようになる) */
+    "incremental": true,                      /* 以前コンパイルを実行したコードと現在のコードとの差分を検出し必要なファイルだけをコンパイルする */
+    "removeComments": true,                   /* コンパイルしたtsファイルからコメントを削除する */
+
+    /* 型チェック設定 */
+    "strict": true,                           /* 型チェックを全て有効にする(任意の設定を無効にしたい場合はfalseで設定することで可能) */
+    // "noImplicitAny": true,                 /* 暗黙的にanyになる値をエラーにする */
+    // "strictNullChecks": true,              /* Nullableな値に対してオプションの呼び出しを行う記述をエラーにする */
+    // "strictFunctionTypes": true,           /* 関数代入時の引数の型チェックを行うようにする */
+    // "strictBindCallApply": true,           /* 'bind', 'call', 'apply'を使用する際に、より厳密に型チェックを行うようにする */
+    // "strictPropertyInitialization": true,  /* クラス定義時、インスタンス変数の初期化が宣言時、もしくはコンストラクタのどちらでも行われていない場合エラーにする */
+    // "noImplicitThis": true,                /* 使われているthisの型が暗黙的にanyになる場合にエラーにする */
+    // "alwaysStrict": true,                  /* "use strict"を必ず全てのファイルの先頭行に付与する */
+
+    /* Additional Checks */
+    "noUnusedLocals": true,                   /* 宣言されたが使用されていない変数が存在する場合にエラーにする */
+    "noUnusedParameters": true,               /* 関数の引数に定義しているのに中身のコードで使用されない場合にエラーにする */
+    "noImplicitReturns": true,                /* 条件分岐によって明示的なreturnがされないルートがある場合にエラーにする */
+    "noFallthroughCasesInSwitch": true,       /* switch文のcase内で脱出処理(break, return)がない場合にエラーにする */
+    "noUncheckedIndexedAccess": true,         /* 配列の要素やオブジェクトのプロパティへのアクセスにてundefinedの可能性がある場合にエラーにする */
+
+    /* Module Resolution Options */
+    "esModuleInterop": true,                  /* CommonJSモジュールとESモジュール間の相互運用を可能にする */
+
+    /* Advanced Options */
+    "skipLibCheck": true,                     /* 型定義ファイルのチェックをスキップする */
+    "forceConsistentCasingInFileNames": true  /* import時にファイルパスの文字列で大文字小文字を区別するかどうかを指定 */
+  },
+
+  /* コンパイル対象のファイル指定 */
+  "include": [
+    "./src/**/*"
+  ],
+
+  /* コンパイル対象外のファイル指定 */
+  "exclude": [
+    "node_modules"
+  ]
+}
